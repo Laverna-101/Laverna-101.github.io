@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    
+}
+
+h1 {
+    width: 20rem;
+    
+    margin: 12rem .7rem;
+    text-align: center;
+}
