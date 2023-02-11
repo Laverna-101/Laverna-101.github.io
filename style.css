@@ -11,7 +11,7 @@ body {
 
 h1 {
     width: 20rem;
-    border: 1px solid red;   
     margin: 12rem .7rem;
     text-align: center;
+    color: red;
 }
