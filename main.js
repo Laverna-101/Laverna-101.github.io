@@ -61,7 +61,7 @@ function quoteGenerator(){
         quote.innerHTML = "Happy Monthsarry Langga";
     }
     else {
-        quote.innerHTML = quotes[days];
+        quote.innerHTML = quotes[days-1];
         document.body.style.background= `url(\"pictures/picture${iPic}.jpg\") no-repeat center fixed`;
     }
 
