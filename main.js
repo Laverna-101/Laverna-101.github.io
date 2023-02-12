@@ -56,7 +56,7 @@ function quoteGenerator(){
 
     ];
 
-    let iPic = Math.floor(Math.random() * 4);
+    let iPic = Math.floor(Math.random() * 3);
     if(days == 16){
         quote.innerHTML = "Happy Monthsarry Langga";
     }
