@@ -25,19 +25,43 @@ function quoteGenerator(){
         "Well, I found a woman stronger than anyone I know. She shares my dreams; I hope that someday I'll share her home.",
         "I hope you don't mind that I put down in words how wonderful life is while you're in the world.",
         "How sweet it is to be loved by you...",
-
+         "I can feel you when your near amongst the crowds",
+        "I've known it from the moment that we met no doubt in my mind where you belong",
+        "You're my end and my beginning, Even when i lose i'm winning",
+        "In all the world you'll never find a love as true as mine",
+        "Your lips are made to be kissed. Let's not let them be wasted.",
+        "Your lips look lonely. Can mine keep them company?",
+        "I’ve never experienced having my dreams come true until the day I met you.",
+        "Someone call 9-1-1 because you make my heart stop every time I am around you.",
+        "Wanna flip a coin? Heads, I’m yours tails your mine!",
+        "Are you tired? Because you have been running through my mind all day.",
+        "Gihigugma taka (uwu)",
+        "I'm sorry for everything but really my love is true than ever",
+        "I knew na ikaw na jhud para sa akoa tungod sa imong pagka maldita HAHAHHAH (uwu)",
+        "The Best Couple has an annoying and idiot boyfriend and an impatient and always-angry girlfriend",
+        "Pag huwat ghod, hapakon takag singsing ron HAHAHHAH",
+        "Kung mo abot ang panahon na di na ikaw akong makuyog, awh makig kuyog kos mga iring nako sus",
+        "I love you my Love",
+        "I wish you're okay everyday even if i'm not by your side.",
+        "Hoping our dreams come true!",
+        "When you feel lost or alone, just visit this site and read this letters for you my love",
+        "Remember when we name our kids, Nate, Seth and Aurora? AHHAHHAH jjmon",
+        "Challenges may come but our love is stronger than anything",
+        "Pakaslan taka kung imo na jhud kan on ang piso sa balot HAHHAHHAHA",
+        "Can't wait to have a fishball date with you again",
+        "Gusto kong tumakas kasama mo, kapit lang lilipad tayo",
+        "Gusto kitang makasama sa araw-araw",
+        "Wishing for everything to be in place, a future for us to claim",
+        "Everything is in monochrome until you came"
 
     ];
 
-    let i = Math.floor(Math.random() * quotes.length);
-    let iPic = Math.floor(Math.random() * 3);
     
-    console.log(i);
     if(days == 16){
         quote.innerHTML = "Happy Monthsarry Langga";
     }
     else {
-        quote.innerHTML = quotes[i];
+        quote.innerHTML = quotes[days];
         document.body.style.background= `url(\"pictures/picture${iPic}.jpg\") no-repeat center fixed`;
     }
 
