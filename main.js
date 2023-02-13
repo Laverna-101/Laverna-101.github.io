@@ -66,7 +66,7 @@ function quoteGenerator(){
     }
     else if(month == 2-1 && days == 14){
         
-        document.body.style.backgroundImage= `url(\"pictures/valentines.jpg\")`;
+        document.body.style.backgroundImage= `url(\"pictures/valentines.JPG\")`;
         
     }
     else if(month == 2-1 && days == 13){
