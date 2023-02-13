@@ -2,6 +2,8 @@
 let quote = document.querySelector("#quote");
 const date = new Date();
 let days = date.getDate();
+let hours = date.getHours();
+let month = date.getMonth();
 
 quoteGenerator();
 
@@ -25,7 +27,7 @@ function quoteGenerator(){
         "Well, I found a woman stronger than anyone I know. She shares my dreams; I hope that someday I'll share her home.",
         "I hope you don't mind that I put down in words how wonderful life is while you're in the world.",
         "How sweet it is to be loved by you...",
-         "I can feel you when your near amongst the crowds",
+        "I can feel you when your near amongst the crowds",
         "I've known it from the moment that we met no doubt in my mind where you belong",
         "You're my end and my beginning, Even when i lose i'm winning",
         "In all the world you'll never find a love as true as mine",
@@ -52,20 +54,29 @@ function quoteGenerator(){
         "Gusto kong tumakas kasama mo, kapit lang lilipad tayo",
         "Gusto kitang makasama sa araw-araw",
         "Wishing for everything to be in place, a future for us to claim",
-        "Everything is in monochrome until you came"
+        "Everything is in monochrome until you came",
+
 
     ];
 
-    let iPic = Math.floor(Math.random() * 3);
+    let iPic = Math.floor(Math.random() * 4);
+    console.log(iPic);
     if(days == 16){
         quote.innerHTML = "Happy Monthsarry Langga";
     }
+    else if(month == 2-1 && days == 14){
+        quote.innerHTML = "Happy Valentines my Baby Langga";
+    }
     else {
         quote.innerHTML = quotes[days-1];
-        document.body.style.background= `url(\"pictures/picture${iPic}.jpg\") no-repeat center fixed`;
+        if(hours > 6 && hours < 18){
+            document.body.style.background= `url(\"pictures/day${iPic}.jpg\") no-repeat center fixed`;
+        }
+        else{
+            document.body.style.background= `url(\"pictures/night${iPic}.jpg\") no-repeat center fixed`;
+        }
     }
-
+    console.log(quotes.length);
 }
-
 
 
