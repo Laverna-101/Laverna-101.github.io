@@ -4,6 +4,7 @@ const date = new Date();
 let days = date.getDate();
 let hours = date.getHours();
 let month = date.getMonth();
+let iPic = Math.floor(Math.random() * 4);
 
 quoteGenerator();
 
@@ -59,24 +60,31 @@ function quoteGenerator(){
 
     ];
 
-    let iPic = Math.floor(Math.random() * 4);
-    console.log(iPic);
+    
     if(days == 16){
         quote.innerHTML = "Happy Monthsarry Langga";
     }
     else if(month == 2-1 && days == 14){
-        quote.innerHTML = "Happy Valentines my Baby Langga";
+        document.body.style.background= `url() no-repeat center fixed`;
+
+    }
+    else if(month == 2-1 && days == 13){
+        quote.innerHTML = "Kay Impatient man kang Dako so yeah, You're always my Valentine";
+        
     }
     else {
         quote.innerHTML = quotes[days-1];
-        if(hours > 6 && hours < 18){
-            document.body.style.background= `url(\"pictures/day${iPic}.jpg\") no-repeat center fixed`;
-        }
-        else{
-            document.body.style.background= `url(\"pictures/night${iPic}.jpg\") no-repeat center fixed`;
-        }
+        dayAndNightBackground(iPic);
     }
     console.log(quotes.length);
 }
 
+function dayAndNightBackground(background_theme){
+    if(hours > 6 && hours < 18){
+        document.body.style.background= `url(\"pictures/day${background_theme}.jpg\") no-repeat center fixed`;
+    }
+    else{
+        document.body.style.background= `url(\"pictures/night${background_theme}.jpg\") no-repeat center fixed`;
+    }
+}
 
