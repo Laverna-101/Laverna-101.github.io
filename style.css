@@ -5,11 +5,14 @@
     font-family: 'Lobster', cursive;
 }
 
+body {
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 @media only screen and (max-width: 600px) {
-    body {
-        background-size: cover;
         
-    }
     
     h1 {
         position: fixed;
@@ -18,7 +21,6 @@
         transform: translate(-50%, -50%);
         text-align: center;
         text-shadow: 0px 0px 5px white;
-        font-size: 25;
     }
 
     .circles {
@@ -55,7 +57,7 @@
         background-size: contain;
         bottom: -150px;
         z-index: -1;
-        animation: animate 25s linear infinite;
+        animation: animate 23s linear infinite;
     }
     .circles div:nth-child(1){
         left: 25%;
