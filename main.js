@@ -70,7 +70,7 @@ function quoteGenerator(){
     }
     else if(month == 2-1 && days == 13){
         quote.innerHTML = "Kay Impatient man kang Dako so yeah, I will be your Valentine";
-        
+        dayAndNightBackground(iPic);
     }
     else {
         quote.innerHTML = quotes[days-1];
@@ -81,10 +81,10 @@ function quoteGenerator(){
 
 function dayAndNightBackground(background_theme){
     if(hours > 6 && hours < 18){
-        document.body.style.background= `url(\"pictures/day${background_theme}.jpg\") no-repeat center fixed`;
+        document.body.style.background= `url(\"pictures/night${background_theme}.jpg\") no-repeat center fixed`;
     }
     else{
-        document.body.style.background= `url(\"pictures/night${background_theme}.jpg\") no-repeat center fixed`;
+        document.body.style.background= `url(\"pictures/day${background_theme}.jpg\") no-repeat center fixed`;
     }
 }
 
