@@ -69,7 +69,7 @@ function quoteGenerator(){
 
     }
     else if(month == 2-1 && days == 13){
-        quote.innerHTML = "Kay Impatient man kang Dako so yeah, You're always my Valentine";
+        quote.innerHTML = "Kay Impatient man kang Dako so yeah, I will be your Valentine";
         
     }
     else {
