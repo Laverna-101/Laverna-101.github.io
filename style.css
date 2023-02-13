@@ -12,11 +12,10 @@
     }
     
     h1 {
-        width: 20rem;
-        border: 1px solid red;
-        margin: 11rem 3rem;
-        text-align: center;
-        font-size: 30px;
+        position: fixed;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
         text-shadow: 0px 0px 5px white;
     }
 }
