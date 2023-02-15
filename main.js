@@ -1,11 +1,12 @@
 
 let quote = document.querySelector("#quote");
+let message = document.querySelector(".message");
 const date = new Date();
 let days = date.getDate();
 let hours = date.getHours();
 let month = date.getMonth();
 let iPic = Math.floor(Math.random() * 4);
-
+let carousel = document.querySelector(".carousel-wrapper");
 quoteGenerator();
 
 function quoteGenerator(){
@@ -56,13 +57,17 @@ function quoteGenerator(){
         "Gusto kitang makasama sa araw-araw",
         "Wishing for everything to be in place, a future for us to claim",
         "Everything is in monochrome until you came",
-
-
+        
+        
     ];
-
     
-    if(days == 16){
-        quote.innerHTML = "Happy Monthsarry Langga";
+    
+    if(days == 15){
+        quote.innerHTML = "Happy 5.7 Monthsarry Langga";
+        quote.style.transform = "translate" + "(" + -50 + "%" + "," +  -180 + "%" + ")";
+        carousel.style.display = "block";
+        message.style.display = "block";
+        dayAndNightBackground(iPic);
     }
     else if(month == 2-1 && days == 14){
         
