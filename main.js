@@ -62,7 +62,7 @@ function quoteGenerator(){
     ];
     
     
-    if(days == 16){
+    if(days == 15){
         quote.innerHTML = "Happy 5.7th Monthsarry Langga";
         quote.style.transform = "translate" + "(" + -50 + "%" + "," +  -200 + "%" + ")";
         carousel.style.display = "block";
