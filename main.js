@@ -89,7 +89,7 @@ function dayAndNightBackground(background_theme){
     document.body.style.background= `url(\"pictures/day${background_theme}.jpg\") no-repeat center fixed`;
     // if(hours > 6 && hours < 18){
     //     document.body.style.background= `url(\"pictures/night${background_theme}.jpg\") no-repeat center fixed`;
-    // }
+    // }s
     // else{
     // }
 }
