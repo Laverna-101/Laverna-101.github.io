@@ -62,16 +62,16 @@ function quoteGenerator(){
     ];
     
     
-    if(days == 16){
-        quote.innerHTML = "Happy 5.7th Monthsarry Langga";
-        quote.style.transform = "translate" + "(" + -50 + "%" + "," +  -200 + "%" + ")";
+    if(days == 15){
+        quote.innerHTML = "Happy 5.7 Monthsarry Langga";
+        quote.style.transform = "translate" + "(" + -50 + "%" + "," +  -180 + "%" + ")";
         carousel.style.display = "block";
         message.style.display = "block";
         dayAndNightBackground(iPic);
     }
     else if(month == 2-1 && days == 14){
         
-        document.body.style.backgroundImage= `url(\"pictures/valentines.JPG\")`;
+        document.body.style.backgroundImage= `url(\"pictures/valentines.jpg\")`;
         
     }
     else if(month == 2-1 && days == 13){
