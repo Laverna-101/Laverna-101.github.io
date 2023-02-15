@@ -64,7 +64,7 @@ function quoteGenerator(){
     
     if(days == 16){
         quote.innerHTML = "Happy 5.7th Monthsarry Langga";
-        quote.style.transform = "translate" + "(" + -50 + "%" + "," +  -180 + "%" + ")";
+        quote.style.transform = "translate" + "(" + -50 + "%" + "," +  -200 + "%" + ")";
         carousel.style.display = "block";
         message.style.display = "block";
         dayAndNightBackground(iPic);
