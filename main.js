@@ -29,7 +29,7 @@ function quoteGenerator(){
         "Well, I found a woman stronger than anyone I know. She shares my dreams; I hope that someday I'll share her home.",
         "I hope you don't mind that I put down in words how wonderful life is while you're in the world.",
         "How sweet it is to be loved by you...",
-        "I can feel you when your near amongst the crowds",
+        "I can feel you when you're near amongst the crowds",
         "I've known it from the moment that we met no doubt in my mind where you belong",
         "You're my end and my beginning, Even when i lose i'm winning",
         "In all the world you'll never find a love as true as mine",
