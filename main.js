@@ -10,6 +10,12 @@ let carousel = document.querySelector(".carousel-wrapper");
 quoteGenerator();
 
 function quoteGenerator(){
+
+    /**making a 365 days format through month multiplied 
+    by average days and add the total days of the current month
+    */
+    let daily_quote = Math.floor((month * 30.437) + days);
+    
     const quotes = [
         "If this is a dream then i dont want to wake up again",
         "Loving you is like seeing sunset for the first time",
@@ -57,12 +63,33 @@ function quoteGenerator(){
         "Gusto kitang makasama sa araw-araw",
         "Wishing for everything to be in place, a future for us to claim",
         "Everything is in monochrome until you came",
+        "Ikaw ang kahati sa twin pack ko. UWU",
+        "I wish i can hug you right now. I miss you a lottt",
+        "You are my heart, my life, my one and only thought",
+        "You should be kissed and often, and by someone who knows how.",
+        "I’ve never had a moment’s doubt. I love you. I believe in you completely. You are my dearest one. My reason for life.",
+        "You are sunlight through a window, which I stand in, warmed. My darling",
+        "Soul meets soul on lovers’ lips.",
+        "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.",
+        "You know you’re in love when you can’t fall asleep because reality is finally better than your dreams",
+        "Take my hand, take my whole life too. For I can’t help falling in love with you",
+        "We fight often and love even more",
+        "You’re the closest to heaven, that I’ll ever be.",
+        "I have found the one whom my soul loves.",
+        "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.",
+        "Love is when you sit beside someone doing nothing, yet you feel perfectly happy.",
+        "You are, and always have been, my dream.",
+        "Love is composed of a single soul inhabiting two bodies.",
+        "Our love is like the wind. I can’t see it, but I can feel it.",
+        "I would rather spend one lifetime with you, than face all the ages of this world alone.",
+        "When I see your face, there’s not a thing that I would change, ’cause you’re amazing – just the way you are."
+
         
         
     ];
     
     
-    if(days == 15){
+    if(days == 16){
         quote.innerHTML = "Happy 5.7 Monthsarry Langga";
         quote.style.transform = "translate" + "(" + -50 + "%" + "," +  -180 + "%" + ")";
         carousel.style.display = "block";
@@ -79,10 +106,11 @@ function quoteGenerator(){
         dayAndNightBackground(iPic);
     }
     else {
-        quote.innerHTML = quotes[days-1];
+        quote.innerHTML = quotes[daily_quote];
         dayAndNightBackground(iPic);
     }
-    console.log(quotes.length);
+    
+    
 }
 
 function dayAndNightBackground(background_theme){
@@ -93,5 +121,3 @@ function dayAndNightBackground(background_theme){
     // else{
     // }
 }
-
-console.log(iPic);
