@@ -138,6 +138,9 @@ body {
         height: 10%;
         bottom: -150px;
         z-index: -1;
+        background: url("pictures/heart1.png") fixed no-repeat center;
+        background-size: contain;
+        
         animation: animate 23s linear infinite;
     }
     .circles div:nth-child(1){
