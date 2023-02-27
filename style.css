@@ -136,8 +136,6 @@ body {
         display: block;
         width: 10%;
         height: 10%;
-        background: url("pictures/heart1.png") center fixed no-repeat;
-        background-size: contain;
         bottom: -150px;
         z-index: -1;
         animation: animate 23s linear infinite;
@@ -147,8 +145,6 @@ body {
         width: 80px;
         height: 80px;
         animation-delay: 0s;
-        background: url("pictures/flower1.png") center fixed no-repeat;
-        background-size: contain;
         
     }
     .circles div:nth-child(2){
@@ -178,8 +174,7 @@ body {
         width: 20px;
         height: 20px;
         animation-delay: 0s;
-        background: url("pictures/flower1.png") center fixed no-repeat;
-        background-size: contain;
+       
     }
     .circles div:nth-child(6){
         left: 75%;
