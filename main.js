@@ -1,4 +1,3 @@
-
 let quote = document.querySelector("#quote");
 let message = document.querySelector(".message");
 const date = new Date();
@@ -9,13 +8,12 @@ let iPic = Math.floor(Math.random() * 4);
 let carousel = document.querySelector(".carousel-wrapper");
 quoteGenerator();
 
-function quoteGenerator(){
-
+function quoteGenerator() {
     /**making a 365 days format through month multiplied 
     by average days and add the total days of the current month
     */
-    let daily_quote = Math.floor((month * 30.437) + days);
-    
+    let daily_quote = Math.floor(month * 30.437 + days);
+
     const quotes = [
         "If this is a dream then i dont want to wake up again",
         "Loving you is like seeing sunset for the first time",
@@ -82,39 +80,46 @@ function quoteGenerator(){
         "Love is composed of a single soul inhabiting two bodies.",
         "Our love is like the wind. I can’t see it, but I can feel it.",
         "I would rather spend one lifetime with you, than face all the ages of this world alone.",
-        "When I see your face, there’s not a thing that I would change, ’cause you’re amazing – just the way you are."
+        "When I see your face, there’s not a thing that I would change, ’cause you’re amazing – just the way you are.",
+        "Its always us against the world my love",
+        "I love you because the entire universe conspired to help me find you.",
+        "Immature love says: ‘I love you because I need you.’ Mature love says: ‘I need you because I love you.",
+        "You are my Peace in this chaotic world",
+        "I love you more than there are stars in the sky and fish in the sea.",
+        "I love you 3000",
+        "I fell in love the way you fall asleep: slowly, and then all at once.",
+        "So it's not gonna be easy. It's going to be really hard; we're gonna have to work at this everyday, but I want to do that because I want you. I want all of you, forever, everyday. You and me... everyday.",
+        "You are my best friend as well as my lover, and I do not know which side of you I enjoy the most. I treasure each side, just as I have treasured our life together.",
+        "You are, and always have been, my dream.",
+        "I am really looking forward for the day that i become successful because of you",
+        "Its weird that you always caught my attention when you smile",
+        "Seeing you doing cute and weird stuffs makes me fall for you even more",
+        "I love you so much langga, Every single day",
+        "Mwuah mwuah mwuah mwuah mwuah"
 
-        
-        
     ];
-    
-    
-    if(days == 16){
+
+    if (days == 16) {
         quote.innerHTML = "Happy 5.7 Monthsarry Langga";
-        quote.style.transform = "translate" + "(" + -50 + "%" + "," +  -180 + "%" + ")";
+        quote.style.transform =
+            "translate" + "(" + -50 + "%" + "," + -180 + "%" + ")";
         carousel.style.display = "block";
         message.style.display = "block";
         dayAndNightBackground(iPic);
-    }
-    else if(month == 2-1 && days == 14){
-        
-        document.body.style.backgroundImage= `url(\"pictures/valentines.jpg\")`;
-        
-    }
-    else if(month == 2-1 && days == 13){
-        quote.innerHTML = "Kay Impatient man kang Dako so yeah, I will be your Valentine";
+    } else if (month == 2 - 1 && days == 14) {
+        document.body.style.backgroundImage = `url(\"pictures/valentines.jpg\")`;
+    } else if (month == 2 - 1 && days == 13) {
+        quote.innerHTML =
+            "Kay Impatient man kang Dako so yeah, I will be your Valentine";
         dayAndNightBackground(iPic);
-    }
-    else {
+    } else {
         quote.innerHTML = quotes[daily_quote];
         dayAndNightBackground(iPic);
     }
-    
-    
 }
 
-function dayAndNightBackground(background_theme){
-    document.body.style.background= `url(\"pictures/day${background_theme}.jpg\") no-repeat center fixed`;
+function dayAndNightBackground(background_theme) {
+    document.body.style.background = `url(\"pictures/day${background_theme}.jpg\") no-repeat center fixed`;
     // if(hours > 6 && hours < 18){
     //     document.body.style.background= `url(\"pictures/night${background_theme}.jpg\") no-repeat center fixed`;
     // }
