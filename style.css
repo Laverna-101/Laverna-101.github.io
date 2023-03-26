@@ -17,10 +17,11 @@ body {
     h1 {
         position: fixed;
         left: 50vw;
-        top: 40vh;
         transform: translate(-50%, -50%);
+        top: 50%;
         text-align: center;
         text-shadow: 0px 0px 5px white;
+        border: 1px solid red;
     }
 
     .carousel-wrapper {
@@ -136,11 +137,10 @@ body {
         display: block;
         width: 10%;
         height: 10%;
+        background: url("pictures/heart1.png") center fixed no-repeat;
+        background-size: contain;
         bottom: -150px;
         z-index: -1;
-        background: url("pictures/heart1.png") fixed no-repeat center;
-        background-size: contain;
-        
         animation: animate 23s linear infinite;
     }
     .circles div:nth-child(1){
@@ -148,6 +148,8 @@ body {
         width: 80px;
         height: 80px;
         animation-delay: 0s;
+        background: url("pictures/flower1.png") center fixed no-repeat;
+        background-size: contain;
         
     }
     .circles div:nth-child(2){
@@ -169,6 +171,8 @@ body {
         width: 60px;
         height: 60px;
         animation-delay: 0s;
+        background: url("pictures/balloon1.png") center fixed no-repeat;
+        background-size: contain;
         animation-duration: 18s;
         
     }
@@ -177,7 +181,8 @@ body {
         width: 20px;
         height: 20px;
         animation-delay: 0s;
-       
+        background: url("pictures/flower1.png") center fixed no-repeat;
+        background-size: contain;
     }
     .circles div:nth-child(6){
         left: 75%;
@@ -203,6 +208,8 @@ body {
         width: 15px;
         height: 15px;
         animation-delay: 2s;
+        background: url("pictures/balloon1.png") center fixed no-repeat;
+        background-size: contain;
         animation-duration: 35s;
     }
 

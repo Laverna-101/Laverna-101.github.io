@@ -95,7 +95,17 @@ function quoteGenerator() {
         "Its weird that you always caught my attention when you smile",
         "Seeing you doing cute and weird stuffs makes me fall for you even more",
         "I love you so much langga, Every single day",
-        "Mwuah mwuah mwuah mwuah mwuah"
+        "Mwuah mwuah mwuah mwuah mwuah",
+        "Cause all of me loves all of you. Love your curves and all your edges, all your perfect imperfections.",
+        "And I can’t help but stare, cause I see truth somewhere in your eyes.",
+        "I am thinking of you in my sleepless solitude tonight, if it’s wrong to love you then my heart just won’t let me be right.",
+        "And when you’re needing your space to do some navigating, I’ll be here patiently waiting to see what you find.",
+        "Well I found a woman, stronger than anyone I know. She shares my dreams, I hope that someday I'll share her home.",
+        "When you left I lost a part of me. It's still so hard to believe. Come back baby please 'cause we belong together",
+        "Have Fun learning langga, Don't forget to relax and the reason why naning kaayo ka, I love you baby",
+        "Do your best baby, Ace the exam okay",
+        "Me so proud of you no matter the score you get baby!!!",
+        "Believe in yourself okay, dont doubt your knowledge and imo skills. I love you baby"
 
     ];
 
@@ -113,6 +123,7 @@ function quoteGenerator() {
             "Kay Impatient man kang Dako so yeah, I will be your Valentine";
         dayAndNightBackground(iPic);
     } else {
+        message.style.display = "none";
         quote.innerHTML = quotes[daily_quote];
         dayAndNightBackground(iPic);
     }
