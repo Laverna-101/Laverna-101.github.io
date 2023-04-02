@@ -105,7 +105,28 @@ function quoteGenerator() {
         "Have Fun learning langga, Don't forget to relax and the reason why naning kaayo ka, I love you baby",
         "Do your best baby, Ace the exam okay",
         "Me so proud of you no matter the score you get baby!!!",
-        "Believe in yourself okay, dont doubt your knowledge and imo skills. I love you baby"
+        "Believe in yourself okay, dont doubt your knowledge and imo skills. I love you baby",
+        "You are imperfect, permanently and inevitably flawed. And you are beautiful.",
+        "I could make you happy, make your dreams come true. Nothing that I wouldn't do. Go to the ends of the earth for you to make you feel my love.",
+        "I like you very much, just as you are.",
+        "I love you' begins by I, but it ends up by you.",
+        "Your love shines in my heart as the sun that shines upon the earth",
+        "I am so in love with you that there isn’t anything else.",
+        "I knew the second I met you that there was something about you I needed. Turns out it wasn't something about you at all. It was just you.",
+        "A hundred hearts would be too few to carry all my love for you.",
+        "Being with you and not being with you is the only way I have to measure time",
+        "I find the most beautiful moments of life aren't just with you but because of you.",
+        "I love you more than I can express, or can ever hope to express.",
+        "You don’t love someone for their looks, or their clothes or for their fancy car, but because they sing a song only you can hear.",
+        "Miss, Google ka ba? Kasi, nasa iyo ang lahat ng hinahanap ko.",
+        "Apoy ka ba? Kasi ‘alab’ you",
+        "Para kang traffic sa EDSA! ‘Coz I just can’t move on!",
+        "Ice ka ba? Crush kita eh.",
+        "Para kang tindera ng sigarilyo. You give me ‘hope’ and ‘more’…",
+        "Calculator ka ba? Kasi, sa ‘yo pa lang, solved na ko.",
+        "Keyboard ka ba? Kasi type kita.",
+        "Pustiso ka ba? ‘Coz I can’t smile without you.",
+        "Kung posporo ka at posporo ako, eh di, match tayo!"
 
     ];
 
