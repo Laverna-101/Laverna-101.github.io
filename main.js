@@ -1,5 +1,7 @@
 let quote = document.querySelector("#quote");
 let message = document.querySelector(".message");
+let floatSticker = document.querySelector(".circles div:nth-child(1)");
+let floatSticker1 = document.querySelector(".circles div:nth-child(4)");
 const date = new Date();
 let days = date.getDate();
 let hours = date.getHours();
@@ -8,9 +10,12 @@ let iPic = Math.floor(Math.random() * 4);
 let carousel = document.querySelector(".carousel-wrapper");
 quoteGenerator();
 
+
+
+
 function quoteGenerator() {
     /**making a 365 days format through month multiplied 
-    by average days and add the total days of the current month
+     by average days and add the total days of the current month
     */
     let daily_quote = Math.floor(month * 30.437 + days);
 
@@ -127,31 +132,69 @@ function quoteGenerator() {
         "Keyboard ka ba? Kasi type kita.",
         "Pustiso ka ba? ‘Coz I can’t smile without you.",
         "Kung posporo ka at posporo ako, eh di, match tayo!"
-
+        
     ];
 
     if (days == 16) {
-        quote.innerHTML = "Happy 5.7 Monthsarry Langga";
+        quote.innerHTML = annivMaker();
         quote.style.transform =
             "translate" + "(" + -50 + "%" + "," + -180 + "%" + ")";
+        floatSticker.style.background = `url(\"pictures/calendar.png\") center fixed no-repeat`;
+        floatSticker.style.backgroundSize = "contain";
+        floatSticker1.style.background = `url(\"pictures/hearts.png\") center fixed no-repeat`;
+        floatSticker1.style.backgroundSize = "contain";
         carousel.style.display = "block";
         message.style.display = "block";
-        dayAndNightBackground(iPic);
+        document.body.style.background = `url(\"pictures/day4.jpg\") no-repeat center fixed`;
+        document.body.style.backgroundSize = "cover";
+
+
     } else if (month == 2 - 1 && days == 14) {
         document.body.style.backgroundImage = `url(\"pictures/valentines.jpg\")`;
+
+
     } else if (month == 2 - 1 && days == 13) {
         quote.innerHTML =
-            "Kay Impatient man kang Dako so yeah, I will be your Valentine";
+        "Kay Impatient man kang Dako so yeah, I will be your Valentine";
         dayAndNightBackground(iPic);
+
+
     } else {
         message.style.display = "none";
         quote.innerHTML = quotes[daily_quote];
         dayAndNightBackground(iPic);
     }
+
+    
+// Making the Anniversary and Monthsarry Greetings
+    function annivMaker(){
+        let numYear = date.getFullYear() - 2017 ;
+        let anniversary = 7;
+    
+        if((month + 1) < anniversary){
+            let monthS = (12-7) + (month + 1);
+            numYear-= 1;
+            let show = `Happy ${numYear}.${monthS}th Monthsarry Sweetheart`; 
+            return show;
+        }
+        
+        else if ((month + 1) === anniversary){
+            let show = `Happy ${numYear}th Anniversary Sweetheart`;
+            return show;
+        }
+        else {
+            let monthS = (month + 1) - 7;
+            let show = `Happy ${numYear}.${monthS}th Monthsarry Sweetheart`; 
+            return show;
+        }
+    
+        return show;
+    }
 }
 
 function dayAndNightBackground(background_theme) {
     document.body.style.background = `url(\"pictures/day${background_theme}.jpg\") no-repeat center fixed`;
+    document.body.style.backgroundSize = "cover";
     // if(hours > 6 && hours < 18){
     //     document.body.style.background= `url(\"pictures/night${background_theme}.jpg\") no-repeat center fixed`;
     // }
