@@ -131,7 +131,37 @@ function quoteGenerator() {
         "Calculator ka ba? Kasi, sa ‘yo pa lang, solved na ko.",
         "Keyboard ka ba? Kasi type kita.",
         "Pustiso ka ba? ‘Coz I can’t smile without you.",
-        "Kung posporo ka at posporo ako, eh di, match tayo!"
+        "Kung posporo ka at posporo ako, eh di, match tayo!",
+        "When you put your arms around me, you let me know there's nothing in this world I can't do",
+        "Your love is better than ice cream.",
+        "Take me to your heart, for it's there that I belong.",
+        "Some day, when I'm awfully low, when the world is cold, I will feel a glow just thinking of you and the way you look tonight.",
+        "At last...my love has come along. My lonely days are over. And life is like a song.",
+        "Here's to you, the one that always pulls us through, always do what you gotta do. You're one of a kind. Thank God you're mine.",
+        "You fill my life with laughter, and somehow you make it better... Ease my troubles, that's what you do.",
+        "Hit me like a ray of sun burning through my darkest night. You're the only one that I want. Think I'm addicted to your light.",
+        "At first, I thought it was infatuation...but, oh, it's lasted so long. Now, I find myself wanting to marry you, and take you home...",
+        "You’re my downfall, you’re my muse\nMy worst distraction, my rhythm and blues\nI can’t stop singing, it’s ringing, in my head for you",
+        "I’m so in love with you\nAnd I hope you know\nDarling your love is more than worth its weight in gold\nWe’ve come so far my dear\nLook how we’ve grown\nAnd I wanna stay with you until we’re grey and old\nJust say you won’t let go",
+        "I want to stand with you on a mountain\nI want to bathe with you in the sea\nI want to lay like this forever\nUntil the sky falls down on me",
+        "I promise you,\nFrom the bottom of my heart…\nI will love you,",
+        "Til’ death do us part…\nAs a lover and a friend,\nI will love you like I never love again.",
+        "You were my strength when I was weak\nYou were my voice when I couldn’t speak\nYou were my eyes when I couldn’t see\nYou saw the best there was in me\nLifted me up when I couldn’t reach\nYou gave me faith ’cause you believed\nI’m everything I am\nBecause you loved me.",
+        "I’ve got sunshine on a cloudy day <br> When it’s cold outside, I’ve got the month of May",
+        "I guess you’d say, ‘What can make me feel this way?<br>’ My girl, my girl, my girl. Talkin’ ’bout my girl. My girl.",
+        "We can talk all night, we can talk all day, <br> We can play charades when there is nothing to say. <br> You turn me on to the idea of growing old.",
+        "So tonight I’ll ask the stars above <br> “How did I ever win your love?”  <br> What did I do? What did I say To turn your angel eyes my way?",
+        "You know our love was meant to be <br> The kind of love that lasts forever <br> And I want you here with me <br> From tonight until the end of time",
+        "They say that the road ain’t no place to start a family <br> Right down the line it’s been you and me <br> And lovin’ a music man ain’t always what it’s supposed to be <br> Oh, girl, you stand by me <br> I’m forever yours",
+        "And your heart’s against my chest, <br> your lips pressed to my neck <br> I’m falling for your eyes, but they don’t know me yet <br> And with a feeling I’ll forget, <br> I’m in love now.",
+        "I don’t know how you do what you do <br> I’m so in love with you <br> It just keeps getting better <br> I want to spend the rest of my life with you by my side <br>Forever and ever",
+        "I love to love you baby<br>When you’re laying so close to me<br>There’s no place I’d rather you be than with me…",
+        "And I want to wake up with the rain<br>Falling on a tin roof<br>While I’m safe there in your arms<br>So all I ask is for you<br>To come away with me in the night<br>Come away with me.",
+        "I have died every day waiting for you<br>Darling, don’t be afraid<br>I have loved you for a thousand years<br>I’ll love you for a thousand more.",
+        "And darling I will be loving you ’til we’re 70<br>And baby my heart could still fall as hard at 23<br>And I’m thinking ’bout how people fall in love in mysterious ways<br>Maybe just the touch of a hand<br>Oh me I fall in love with you every single day<br>And I just wanna tell you I am.",
+        
+
+        
         
     ];
 
