@@ -182,6 +182,22 @@ function quoteGenerator() {
         "Laag nya ta dabon sunod <3",
         "Ikaw og Ikaw lang gihapon hantod sa hantod",
         "My love, my heart, my everything. I love you",
+        "Do I love you? My God, if your love were a grain of sand, mine would be a universe of beaches",
+        "I've never had a moment's doubt. I love you. I believe in you completely. You are my dearest one. My reason for life.",
+        "You have bewitched me, body and soul, and I love, I love, I love you. I never wish to be parted from you from this day on",
+        "I love you more than I have ever found a way to say to you.",
+        "I do know some things. I know I love you. I know you love me.",
+        "I love you the way a drowning man loves air. And it would destroy me to have you just a little.",
+        "Thank you for making me the happiest!",
+        "So, I love you because the entire universe conspired to help me find you.",
+        "Storm clouds may gather and stars may collide, but I love you until the end of time.",
+        "Whatever happens tomorrow, or for the rest of my life, I'm happy now…because I love you.",
+        "I love you. I knew it the minute I met you. I'm sorry it took so long for me to catch up. I just got stuck.",
+        "I can always find you amongst the crowd <3",
+        "Loving you makes me sleep peacefully at night",
+        "For all the things my hands have held, the best by far is you.",
+        "You think you're one of millions but you're one in a million to me.",
+        "But the you who you are tonight is the same you I was in love with yesterday, the same you I'll be in love with tomorrow."
         
         
 
