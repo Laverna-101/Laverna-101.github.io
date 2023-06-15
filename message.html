@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="pictures/heart1.png">
+        <title>Monthsarry Message For You</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            section {
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+
+            .message {
+                background-image: url("pictures/message-container.jpg") ;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 50px 0 0 0;
+                width: 80vw;
+                height: 50vh;
+            }
+
+            .content-1 .message p {
+                
+                width: 50vw;
+                position: relative;
+                top: -20px;
+                left: 25px;
+                
+            }
+            .content-1 .message p:nth-child(2){
+                position: relative;
+                width: 50vw;
+                left: 0px;
+            }
+            .content-2 .message p {
+                
+                width: 50vw;
+                position: relative;
+                top: -20px;
+                left: 25px;
+                
+            }
+            .content-2 .message p:nth-child(2){
+                position: relative;
+                width: 50vw;
+                left: 0px;
+            }
+            .content-3 .message p {
+                
+                width: 50vw;
+                position: relative;
+                top: -20px;
+                left: 25px;
+                
+            }
+            .content-2 .message p:nth-child(2){
+                position: relative;
+                width: 50vw;
+                left: 0px;
+            }
+            img {
+                position: relative;
+                top: -70px;
+                left: -60px;
+                width: 50vw;
+                height: 25vh;
+                z-index: 2;
+                border-radius: 20px;
+                box-shadow: 3px 1px 10px red;
+            }
+
+            .reveal.active {
+                
+            }
+
+            .circles {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 300%;
+        overflow: hidden;
+    }
+
+
+    @keyframes animate {
+        0% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        100% {
+            opacity: 0;
+            transform: translateY(-280vh);
+
+        }
+        
+    }
+
+    .circles div {
+        
+        position: absolute;
+        display: block;
+        width: 10%;
+        height: 10%;
+        background: url("pictures/heart1.png") center fixed no-repeat;
+        background-size: contain;
+        bottom: -150px;
+        z-index: 1;
+        animation: animate 23s linear infinite;
+    }
+    .circles div:nth-child(1){
+        left: 25%;
+        width: 80px;
+        height: 80px;
+        animation-delay: 0s;
+        background: url("pictures/flower1.png") center fixed no-repeat;
+        background-size: contain;
+        
+    }
+    .circles div:nth-child(2){
+        left: 10%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 2s;
+        animation-duration: 12s;
+    }
+    .circles div:nth-child(3){
+        left: 70%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 4s;
+        
+    }
+    .circles div:nth-child(4){
+        left: 40%;
+        width: 60px;
+        height: 60px;
+        animation-delay: 0s;
+        background: url("pictures/balloon1.png") center fixed no-repeat;
+        background-size: contain;
+        animation-duration: 18s;
+        
+    }
+    .circles div:nth-child(5){
+        left: 65%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 0s;
+        background: url("pictures/flower1.png") center fixed no-repeat;
+        background-size: contain;
+    }
+    .circles div:nth-child(6){
+        left: 75%;
+        width: 110px;
+        height: 110px;
+        animation-delay: 3s;
+    }
+    .circles div:nth-child(7){
+        left: 35%;
+        width: 150px;
+        height: 150px;
+        animation-delay: 7s;
+    }
+    .circles div:nth-child(8){
+        left: 60%;
+        width: 25px;
+        height: 25px;
+        animation-delay: 15s;
+        animation-duration: 45s;
+    }
+    .circles div:nth-child(9){
+        left: 20%;
+        width: 15px;
+        height: 15px;
+        animation-delay: 2s;
+        background: url("pictures/balloon1.png") center fixed no-repeat;
+        background-size: contain;
+        animation-duration: 35s;
+    }
+
+
+        </style>
+    </head>
+
+    <body>
+        
+        <section class="content content-1 reveal" >
+            <div class="message">
+                <p> I always knew you were the one for me.
+                    The one who will love me for who i am.
+                    The one who will be surely with me in
+                </p>
+                <p>
+                    any odds.
+                    The one I will love endlessly.
+                </p>
+                
+                
+            </div>
+            <img src="pictures/image4.jpeg" alt="">
+            <div class="main-area">
+                <div class="circles">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+        <section class="content content-2 reveal" >
+                
+            <div class="message">
+                    <p> Sometimes I cant believe that our relastionship lasted this long. That i would love you this much. That a single day without you hits different. </p>
+                    <p>That you have become one my life's neccessity</p>
+                </div>
+                <img src="pictures/image2.JPG" alt="">
+                <div class="main-area">
+                    <div class="circles">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </section>
+            <section class="content content-3 reveal" >
+            
+                <div class="message">
+                    <p> Word aren't mean much to a guy like me. Stumbled and Jumbled by words i cannot express clearly. But one thing is certain, I have loved you </p>
+                    <p>in this 2160 days of my life with you baby</p>
+                </div>
+                <img src="pictures/image3.jpeg" alt="">
+        </section>
+        
+        
+
+        <script>
+
+            window.addEventListener('scroll', reveal);
+
+            function reveal() {
+                var reveals = document.querySelectorAll(".reveal");
+
+                for (var i = 0; i < reveals.length; i++) {
+                    var windowHeight = window.innerHeight;
+                    var revealTop = reveals[i].getBoundingClientRect().top;
+                    var revealPoint = 150;
+
+
+                    if(revealTop < windowHeight - revealPoint){
+                        reveals[i].classList.add('active');
+                    }
+                    else {
+                        reveals[i].classList.remove('active');
+
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

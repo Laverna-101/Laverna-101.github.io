@@ -99,7 +99,7 @@ body {
           display: none;
           width: 10rem;
           height: 50px;
-          margin: 15vh auto 0;
+          margin: 12vh auto 0;
         }
         .message h2 {
             font-size: 30px;
@@ -130,7 +130,32 @@ body {
         }
         
     }
+    button {
+      position: relative;
+      z-index: 3;
+      top: 5vh;
+      left: 40vw;
+      width: 20vw;
+      height: 5vh;
+      text-align: center;
+      border-radius: 20px;
+      
+      border: 2px solid pink;
+      
+      outline: none;
+    }
 
+    button:hover {
+      background-color: rgb(158, 117, 124);
+      color: white;
+    }
+
+    a {
+      text-decoration: none;
+      color: red;
+    }
+
+    
     .circles div {
         
         position: absolute;
