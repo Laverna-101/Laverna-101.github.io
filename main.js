@@ -1,4 +1,5 @@
 let quote = document.querySelector("#quote");
+let directMessage = document.querySelector(".directMessage");
 let message = document.querySelector(".message");
 let floatSticker = document.querySelector(".circles div:nth-child(1)");
 let floatSticker1 = document.querySelector(".circles div:nth-child(4)");
@@ -215,6 +216,7 @@ function quoteGenerator() {
         floatSticker1.style.backgroundSize = "contain";
         carousel.style.display = "block";
         message.style.display = "block";
+        direcrMessage.style.display = "block";
         document.body.style.background = `url(\"pictures/day4.jpg\") no-repeat center fixed`;
         document.body.style.backgroundSize = "cover";
 
@@ -231,6 +233,7 @@ function quoteGenerator() {
 
     } else {
         message.style.display = "none";
+        directMessage.style.display = "none";
         quote.innerHTML = quotes[daily_quote];
         dayAndNightBackground(iPic);
     }
