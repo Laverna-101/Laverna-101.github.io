@@ -1,9 +1,10 @@
 let quote = document.querySelector("#quote");
 let message = document.querySelector(".message");
+let directMessage = document.querySelector(".directMessage");
 let floatSticker = document.querySelector(".circles div:nth-child(1)");
 let floatSticker1 = document.querySelector(".circles div:nth-child(4)");
 const date = new Date();
-let days = date.getDate() + 1;
+let days = date.getDate();
 let hours = date.getHours();
 let month = date.getMonth();
 let iPic = Math.floor(Math.random() * 4);
@@ -213,23 +214,27 @@ function quoteGenerator() {
         floatSticker.style.backgroundSize = "contain";
         floatSticker1.style.background = `url(\"pictures/hearts.png\") center fixed no-repeat`;
         floatSticker1.style.backgroundSize = "contain";
+        directMessage.style.display = "block";
         carousel.style.display = "block";
         message.style.display = "block";
         document.body.style.background = `url(\"pictures/day4.jpg\") no-repeat center fixed`;
         document.body.style.backgroundSize = "cover";
-
+        
 
     } else if (month == 2 - 1 && days == 14) {
         document.body.style.backgroundImage = `url(\"pictures/valentines.jpg\")`;
-
-
+        directMessage.style.display = "none";
+        
+        
     } else if (month == 2 - 1 && days == 13) {
+        directMessage.style.display = "none";
         quote.innerHTML =
         "Kay Impatient man kang Dako so yeah, I will be your Valentine";
         dayAndNightBackground(iPic);
 
 
     } else {
+        directMessage.style.display = "none";
         message.style.display = "none";
         quote.innerHTML = quotes[daily_quote];
         dayAndNightBackground(iPic);
