@@ -198,7 +198,18 @@ function quoteGenerator() {
         "Loving you makes me sleep peacefully at night",
         "For all the things my hands have held, the best by far is you.",
         "You think you're one of millions but you're one in a million to me.",
-        "But the you who you are tonight is the same you I was in love with yesterday, the same you I'll be in love with tomorrow."
+        "But the you who you are tonight is the same you I was in love with yesterday, the same you I'll be in love with tomorrow.",
+        "Aking sinta, ikaw na ang tahanan at mundo.",
+        "Wala naman na kong hiling pa bastat kasama ka habang buhay na.",
+        "Tumingin ka sa aking mga mata at hindi mo na kailangan pang magtanong nang paulit–ulit. Ikaw lang ang iniibig",
+        "Pinapawi lahat ng iyong mga ngiti.",
+        "Ikaw ang tanging gustong pagmasdan",
+        "Paninindigan kita, oo. Mamahalin kitang buong buo. ",
+        "Tulad ng mundong hindi tumitigil sa pag-ikot, pag-ibig (ko’y) di mapapagod.",
+        "Alam kong kailan lang tayo nagkatagpo ngunit parang sa ‘yo ayaw nang lumayo.",
+        "Gusto ko lamang sa buhay ay yakapin mo ako.",
+        "Ibubuhos ko ang buong puso ko sa isang munting harana para sa ‘yo.",
+        "Ang mundo ay papanaw din ngunit hindi ang aking puso; ngunit hindi ang pag-ibig ko sa ‘yo."
         
         
 
