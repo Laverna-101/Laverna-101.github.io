@@ -209,7 +209,20 @@ function quoteGenerator() {
         "Alam kong kailan lang tayo nagkatagpo ngunit parang sa ‘yo ayaw nang lumayo.",
         "Gusto ko lamang sa buhay ay yakapin mo ako.",
         "Ibubuhos ko ang buong puso ko sa isang munting harana para sa ‘yo.",
-        "Ang mundo ay papanaw din ngunit hindi ang aking puso; ngunit hindi ang pag-ibig ko sa ‘yo."
+        "Ang mundo ay papanaw din ngunit hindi ang aking puso; ngunit hindi ang pag-ibig ko sa ‘yo.",
+        "Thank You for loving me, my love",
+        "You changed my life for the better",
+        "A Happy wife is a Happy Life lagi HAHHAHAH",
+        "There's no one else like you",
+        "Nabibighani ako sa taglay mong ganda",
+        "Time will come that your dreams and plans will come true, you will always have my support my love",
+        "I know you are bound to greatness my love",
+        "I love you with all my heart",
+        "Even if dugay nata, im still amazed how our crazy relationship is created",
+        "I love you Pangga",
+        "Kaon ka daghan ha mapa breakfast, lunch and dinner. Always take care of yourself",
+        "ALways ka mag amping ha, especially na nag immersion ka",
+        "Bear with it for now, you will be successful someday. Laban Pangga",
         
         
 
