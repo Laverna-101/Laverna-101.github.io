@@ -248,7 +248,15 @@ function quoteGenerator() {
         "You're the cutest and most annoying girlfriend",
         "I'll teach you how to swin basta di lang ka mahadlok AHHAHHA",
         "Wakey wakey bahog lubot",
-        
+        "I love you honey",
+        "Good morning My little Villainess",
+        "There's no day na di ko ma sipok sa imo but i still love you",
+        "Thank you for everything my Angel",
+        "What's on your mind today, i hope your doing well. ILY<3",
+        "Lets have a date nya puhon puhon my babi",
+        "You deserve an ice cream sa init nimo na ulo HAHAHA",
+        "Sorry for messing up, im sorry",
+        "I miss you sweetheart"
         
 
         
