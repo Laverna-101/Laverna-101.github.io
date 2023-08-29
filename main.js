@@ -256,7 +256,24 @@ function quoteGenerator() {
         "Lets have a date nya puhon puhon my babi",
         "You deserve an ice cream sa init nimo na ulo HAHAHA",
         "Sorry for messing up, im sorry",
-        "I miss you sweetheart"
+        "I miss you sweetheart",
+        "Loving you is a pain in the ass and comforting at the same time",
+        "Always eat your breakfast lunch and dinner my babe!",
+        "Thank you for loving me, Mwuah <3",
+        "Wishing our dreams come true my love",
+        "Stay safe ka palagi and stay pretttyy <3",
+        "I love your smell hehe",
+        "Can't wait to massage you every night in our house hehe",
+        "Manifesting our dream house hehe",
+        "Good morning baby, stay safe ka parati and always smile ha",
+        "Schooling naman babi nako oie, ako lang pilia ha-,-",
+        "I miss you my sweetchum",
+        "Kanus a man ko nimo lutoan og Fried Rice balik hehe",
+        "I still remember how yummy the shawarma you gave me pag grade 11",
+        "Missing our Afternoon mini date that costs 20 pesos each HAHAHA",
+        "You're always gonna be a part of meeeeee",
+        "I'll love you endlessly"
+        
         
 
         
