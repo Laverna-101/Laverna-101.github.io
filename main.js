@@ -272,10 +272,26 @@ function quoteGenerator() {
         "I still remember how yummy the shawarma you gave me pag grade 11",
         "Missing our Afternoon mini date that costs 20 pesos each HAHAHA",
         "You're always gonna be a part of meeeeee",
-        "I'll love you endlessly"
-        
-        
-
+        "I'll love you endlessly",
+        "When time are rough, Always look at the bright side",
+        "You're Doing Great, Keep it up",
+        "Im so Proud of you, Gambateeee!",
+        "Stay Pretty my Little Missy",
+        "You're always my sunshine",
+        "No one can beat a hardworking and business minded Woman",
+        "You're a Rare Gem Truly",
+        "Its okay not to be okay, But remember you're not alone",
+        "Always Smile in any circumstances",
+        "Always be Grateful of what you have and what you're capable of",
+        "Your Hardwork won't lie to you",
+        "You'll Achieve your dreamsss by any means",
+        "I love you Forever",
+        "Get well Soon my love, I love you",
+        "Keep Fighting for your Dreams!",
+        "My Home",
+        "You're as beautiful as the sun meets the sea <3",
+        "My Love, everlasting",
+        "I love you 3000"
         
         
     ];
