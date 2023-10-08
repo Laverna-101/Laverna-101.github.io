@@ -291,7 +291,27 @@ function quoteGenerator() {
         "My Home",
         "You're as beautiful as the sun meets the sea <3",
         "My Love, everlasting",
-        "I love you 3000"
+        "I love you 3000",
+        "Its fun to have you in my life",
+        "Dreams come true when perservere",
+        "Loving you is the most beautiful decision i ever made",
+        "Stay Hydrated Beautiful",
+        "Have A blessed Day Sunshine", 
+        "Let your smile shine like sunrise <3", 
+        "You're almost in the finish line, Im so proud of you", 
+        "Be thankful and proud of yourself <3", 
+        "Nasayo na ang lahat, minamahal kitang tapat, nasayo na ang lahat pati ang puso ko <3", 
+        "You're the best thing thats ever been mine",
+        "Kapag nariyan ka bumagabal ang ikot ng mundo <3", 
+        "I can't help falling in love with you",
+        "I can't stare at you for too long because i might fall even harder",
+        "Rooting for your success my love <3",
+        "Always do your best in everything",
+        "Push a bit for your growthhh <3",
+        "In everything you do, Always believe in your capabilities",
+        "I love you forever my wife",
+        "The Moon is beautiful, isn't it?",
+        "Have a blessed Day. Ma'am Febe <3"
         
         
     ];
