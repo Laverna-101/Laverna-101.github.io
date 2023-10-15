@@ -135,6 +135,11 @@ body {
     .directMessage {
       display: none;
     }
+
+    .directMessage button {
+      display: none;
+    }
+
     button {
       position: relative;
       z-index: 3;
