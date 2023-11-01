@@ -4,7 +4,7 @@ let directMessage = document.querySelector(".directMessage");
 let floatSticker = document.querySelector(".circles div:nth-child(1)");
 let floatSticker1 = document.querySelector(".circles div:nth-child(4)");
 const date = new Date();
-let days = date.getDate();
+let days = date.getDate() + 1;
 let hours = date.getHours();
 let month = date.getMonth();
 let iPic = Math.floor(Math.random() * 4);
@@ -311,7 +311,30 @@ function quoteGenerator() {
         "In everything you do, Always believe in your capabilities",
         "I love you forever my wife",
         "The Moon is beautiful, isn't it?",
-        "Have a blessed Day. Ma'am Febe <3"
+        "Hope is what makes us strong <3",
+        "When you have a dream, you've got to grab it and never let go",
+        "Keep your face always toward the sunshine, and shadows will fall behind you.",
+        "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+        "You always outshine everyone with your smile",
+        "A reason to live and love is because of your smile and laugh",
+        "Times may get rough but gets easier when with you",
+        "I love you baby",
+        "Im always proud of you, Go and Chase your dreams",
+        "My best girlll Good morning <3",
+        "Always be the sweetest girl i know",
+        "Stay Pretty <3",
+        "Lets have nacho datee next timee",
+        "How lovely it is to have our dreams come true",
+        "Good Morning Cutie",
+        "A lovely morning for the lovely Lady",
+        "Always start your day with a cup of coffee <3",
+        "Dont forget to ligoooo bahooo",
+        "I love you with everything i have",
+        "Love is sweeter after we fight",
+        "Don't lose Hope!",
+        "Hapit naka ma Graduateee!, Im so proud of you",
+        "You're doing great!"
+        
         
         
     ];
